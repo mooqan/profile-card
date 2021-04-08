@@ -1,0 +1,13 @@
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    width: 150px;
+    height: 44px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    margin-right: 5px;
+}

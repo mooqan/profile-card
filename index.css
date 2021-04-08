@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+}
+
+.profile {
+    width: 400px;
+    border: 1px solid black;
+
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.profile-image {
+    width: 300px;
+    height: 200px;
+
+    border-radius: 70px;
+    object-fit: contain;
+}
+
+.profile-info {
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    justify-content: center;
+}
+
+.delete {
+    background: rgb(241, 61, 61);
+    border: 1px solid pink;
+}
+
+.edit {
+    background: rgb(132, 246, 132);
+}
+
+.card-center {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
